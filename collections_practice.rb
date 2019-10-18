@@ -38,7 +38,7 @@ end
 
 def add_s(arr)
   arr.each_with_index do |thing, i|
-    if != arr[1]
+    if !== arr[1]
       arr.collect{|n| "#{n}s"}
     end
   end
